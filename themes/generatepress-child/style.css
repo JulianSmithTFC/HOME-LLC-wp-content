@@ -1,0 +1,215 @@
+/*
+Theme Name: GeneratePress Child
+Theme URI: https://generatepress.com
+Template: generatepress
+Author: Tom Usborne
+Author URI: https://tomusborne.com
+Description: GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 15kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com
+Tags: two-columns,three-columns,one-column,right-sidebar,left-sidebar,footer-widgets,blog,e-commerce,flexible-header,full-width-template,buddypress,custom-header,custom-background,custom-menu,custom-colors,sticky-post,threaded-comments,translation-ready,rtl-language-support,featured-images,theme-options
+Version: 2.2.2.1560142487
+Updated: 2019-06-10 04:54:47
+
+*/
+
+/*------------HOME PAGE-------------*/
+
+/*Block One*/
+.home-blockOne-container{
+    background-color: #8a9a5b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home-blockOne-containers{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home-blockOne-headings{
+    color: #ffff;
+    font-size: 25px !important;
+}
+.home-blockOne-bodyText{
+    color: #f9f8f8;
+}
+.home-blockOne-button{
+    background-color: #f9f8f8 !important;
+    color: #acbb7d !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+/*Block Two*/
+.home-blockTwo-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home-blockTwo-heading{
+    color: #334500;
+    font-size: 60px; !important;
+}
+.home-blockTwo-cards{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.home-blockTwo-headings{
+    font-size: 25px !important;
+    font-weight: bold;
+}
+.home-blockTwo-bodyText{
+
+}
+.home-blockTwo-icons{
+
+}
+.home-blockTwo-listText{
+
+}
+.home-blockTwo-pricingText{
+    color: #8a9a5b;
+    font-size: 40px;
+    font-weight: bold;
+}
+.home-blockTwo-button{
+    background-color: #a69e8f !important;
+    color: #f9f8f8 !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+/*------------ABOUT PAGE-------------*/
+
+/*Block One*/
+.about-blockOne-container{
+    padding-top: 50px;
+}
+.about-blockOne-heading{
+    color: #acbb7d;
+    font-weight: bold;
+}
+.about-blockOne-bodyText{
+    color: #a69e8f;
+}
+
+/*Block Two*/
+.about-blockTwo-container{
+    padding-top: 50px;
+
+}
+.about-blockTwo-heading{
+    color: #acbb7d;
+}
+.about-blockTwo-bodyText{
+    color: #a69e8f;
+}
+
+/*Block Three*/
+.about-blockThree-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-blockThree-heading{
+    color: #acbb7d;
+}
+.about-blockThree-containers{
+    background-color: #8a9a5b;
+    padding: 20px 20px 20px 20px;
+}
+.about-blockThree-names{
+    color: #f9f8f8;
+    font-weight: bold;
+    font-size: 25px;
+}
+.about-blockThree-bodyText{
+    color: #f9f8f8;
+}
+.about-blockThree-button{
+    background-color: #a69e8f !important;
+    color: #f9f8f8 !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.about-blockFour-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-blockFour-heading{
+    color: #acbb7d;
+}
+.about-blockFour-icons{
+
+}
+.about-blockFour-text{
+    color: #393939;
+    font-size: 20px;
+}
+
+/*------------PLANS PAGE-------------*/
+
+/*Block One*/
+.plans-blockOne-container{
+    padding-top: 50px;
+}
+.plans-blockOne-heading{
+    color: #acbb7d;
+    font-weight: bold;
+}
+.plans-blockOne-bodyText{
+    color: #a69e8f;
+}
+
+/*Block Two*/
+.plans-blockTwo-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.plans-blockTwo-heading{
+    color: #acbb7d;
+}
+.plans-blockTwo-bodyText{
+    color: #a69e8f;
+}
+
+/*Block Three*/
+.plans-blockThree-container{
+    padding-bottom: 50px;
+}
+.plans-blockThree-inputLables{
+
+}
+.plans-blockThree-inputText{
+    background-color: #f9f8f8 !important;
+}
+.plans-blockThree-formButton{
+    background-color: #8a9a5b !important;
+    color: #f9f8f8 !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+
+
+
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-fix {
+    height: 100%;
+}
+.footer{
+    background-color: #334500;
+    color: #f9f8f8;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
